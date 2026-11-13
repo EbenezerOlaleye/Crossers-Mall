@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CONL | Engineering Tools &amp; Machinery – Wholesale &amp; Retail</title>
+  <meta name="description" content="CONL is a wholesale and retail supplier of engineering tools and machinery: hand and power tools, electric motors, diesel and petrol generator engines, agricultural machinery and lubricants." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: { 50: '#fff7ed', 100: '#ffedd5', 400: '#fb923c', 500: '#f97316', 600: '#ea580c', 700: '#c2410c' },
+            steel: { 800: '#1e293b', 900: '#0f172a', 950: '#020617' }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-white text-slate-800 antialiased">
+
+  <!-- Top bar -->
+  <div class="bg-steel-950 text-slate-300 text-xs">
+    <div class="max-w-7xl mx-auto px-4 py-2 flex flex-col gap-1 sm:flex-row sm:justify-between">
+      <p>Wholesale &amp; retail supplier of engineering tools and machinery</p>
+      <p>Mon – Sat: 8:00am – 6:00pm</p>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-slate-200">
+    <nav class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-2">
+        <span class="grid place-items-center w-9 h-9 rounded-md bg-brand-500 text-white font-black">C</span>
+        <span class="text-xl font-extrabold tracking-tight text-steel-900">CONL<span class="text-brand-500">.</span></span>
+      </a>
+
+      <ul class="hidden md:flex items-center gap-8 text-sm font-semibold">
+        <li><a href="#products" class="hover:text-brand-600">Products</a></li>
+        <li><a href="#wholesale" class="hover:text-brand-600">Wholesale</a></li>
+        <li><a href="#about" class="hover:text-brand-600">About</a></li>
+        <li><a href="#contact" class="hover:text-brand-600">Contact</a></li>
+      </ul>
+
+      <a href="#quote" class="hidden md:inline-flex rounded-md bg-brand-500 px-4 py-2 text-sm font-bold text-white hover:bg-brand-600">Get a Quote</a>
+
+      <button id="menuBtn" class="md:hidden p-2 -mr-2" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </nav>
+
+    <div id="mobileMenu" class="hidden md:hidden border-t border-slate-200 bg-white">
+      <ul class="px-4 py-4 space-y-1 font-semibold">
+        <li><a href="#products" class="block py-2">Products</a></li>
+        <li><a href="#wholesale" class="block py-2">Wholesale</a></li>
+        <li><a href="#about" class="block py-2">About</a></li>
+        <li><a href="#contact" class="block py-2">Contact</a></li>
+        <li><a href="#quote" class="mt-2 block rounded-md bg-brand-500 py-3 text-center text-white">Get a Quote</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="relative bg-steel-900 text-white overflow-hidden">
+      <img src="https://placehold.co/1600x900/1e293b/334155?text=Engineering+Tools+%26+Machinery" alt="" class="absolute inset-0 w-full h-full object-cover opacity-40" />
+      <div class="relative max-w-7xl mx-auto px-4 py-20 sm:py-28 lg:py-36">
+        <p class="inline-block rounded-full bg-brand-500/20 px-3 py-1 text-xs font-bold uppercase tracking-wider text-brand-400">Engineering Tools &amp; Machinery</p>
+        <h1 class="mt-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight max-w-3xl">
+          Engineering tools and machinery, <span class="text-brand-500">retail &amp; wholesale</span>.
+        </h1>
+        <p class="mt-6 text-lg text-slate-300 max-w-2xl">
+          One supplier for engineers, workshops, contractors, farms and resellers. From a single spanner to a full container of motors and engines, we stock the tools and machines your work depends on.
+        </p>
+        <div class="mt-8 flex flex-col sm:flex-row gap-3">
+          <a href="#products" class="rounded-md bg-brand-500 px-6 py-3 text-center font-bold hover:bg-brand-600">Browse Products</a>
+          <a href="#quote" class="rounded-md border border-white/30 px-6 py-3 text-center font-bold hover:bg-white/10">Request Wholesale Pricing</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="bg-brand-500 text-white">
+      <div class="max-w-7xl mx-auto px-4 py-8 grid grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+        <div><p class="text-3xl font-extrabold">1,000+</p><p class="text-sm text-brand-100">Tools &amp; machines in stock</p></div>
+        <div><p class="text-3xl font-extrabold">7+</p><p class="text-sm text-brand-100">Engineering product lines</p></div>
+        <div><p class="text-3xl font-extrabold">Trade</p><p class="text-sm text-brand-100">Wholesale &amp; retail pricing</p></div>
+        <div><p class="text-3xl font-extrabold">Genuine</p><p class="text-sm text-brand-100">Trusted brands</p></div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="max-w-7xl mx-auto px-4 py-16 sm:py-24">
+      <div class="max-w-2xl">
+        <p class="text-sm font-bold uppercase tracking-wider text-brand-600">Engineering supply</p>
+        <h2 class="mt-2 text-3xl sm:text-4xl font-extrabold text-steel-900">Engineering Tools &amp; Machinery</h2>
+        <p class="mt-4 text-slate-600">Everything engineers, technicians and workshops need to build, maintain and power their operations, in single units or bulk quantities.</p>
+      </div>
+
+      <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <!-- Card -->
+        <article class="group rounded-xl border border-slate-200 overflow-hidden hover:shadow-xl transition">
+          <img src="https://placehold.co/600x400/0f172a/f97316?text=Engineering+Tools" alt="Engineering and hand tools" class="w-full aspect-[3/2] object-cover" />
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-steel-900">Engineering &amp; Hand Tools</h3>
+            <p class="mt-2 text-sm text-slate-600">Spanners, socket sets, pliers, hammers, torque wrenches and complete toolkits for engineers, mechanics and site teams.</p>
+            <a href="#quote" class="mt-4 inline-flex items-center gap-1 text-sm font-bold text-brand-600 group-hover:gap-2 transition-all">Enquire <span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </article>
+
+        <article class="group rounded-xl border border-slate-200 overflow-hidden hover:shadow-xl transition">
+          <img src="https://placehold.co/600x400/0f172a/f97316?text=Power+Tools" alt="Power tools and workshop equipment" class="w-full aspect-[3/2] object-cover" />
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-steel-900">Power Tools &amp; Workshop Equipment</h3>
+            <p class="mt-2 text-sm text-slate-600">Drills, angle grinders, welding machines, air compressors and bench equipment for fabrication and maintenance work.</p>
+            <a href="#quote" class="mt-4 inline-flex items-center gap-1 text-sm font-bold text-brand-600 group-hover:gap-2 transition-all">Enquire <span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </article>
+
+        <article class="group rounded-xl border border-slate-200 overflow-hidden hover:shadow-xl transition">
+          <img src="https://placehold.co/600x400/0f172a/f97316?text=Electric+Motors" alt="Electric motors" class="w-full aspect-[3/2] object-cover" />
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-steel-900">Electric Motors</h3>
+            <p class="mt-2 text-sm text-slate-600">Single and three-phase motors in a wide range of horsepower ratings for pumps, compressors and production lines.</p>
+            <a href="#quote" class="mt-4 inline-flex items-center gap-1 text-sm font-bold text-brand-600 group-hover:gap-2 transition-all">Enquire <span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </article>
+
+        <article class="group rounded-xl border border-slate-200 overflow-hidden hover:shadow-xl transition">
+          <img src="https://placehold.co/600x400/0f172a/f97316?text=Diesel+Engines" alt="Diesel generator engines" class="w-full aspect-[3/2] object-cover" />
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-steel-900">Diesel Generator Engines</h3>
+            <p class="mt-2 text-sm text-slate-600">Heavy-duty diesel engines for standby and prime power generators. Built for long running hours.</p>
+            <a href="#quote" class="mt-4 inline-flex items-center gap-1 text-sm font-bold text-brand-600 group-hover:gap-2 transition-all">Enquire <span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </article>
+
+        <article class="group rounded-xl border border-slate-200 overflow-hidden hover:shadow-xl transition">
+          <img src="https://placehold.co/600x400/0f172a/f97316?text=Petrol+Engines" alt="Petrol generator engines" class="w-full aspect-[3/2] object-cover" />
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-steel-900">Petrol Generator Engines</h3>
+            <p class="mt-2 text-sm text-slate-600">Light, reliable petrol engines for portable generators, home backup and small business use.</p>
+            <a href="#quote" class="mt-4 inline-flex items-center gap-1 text-sm font-bold text-brand-600 group-hover:gap-2 transition-all">Enquire <span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </article>
+
+        <article class="group rounded-xl border border-slate-200 overflow-hidden hover:shadow-xl transition">
+          <img src="https://placehold.co/600x400/0f172a/f97316?text=Agricultural+Machinery" alt="Agricultural machinery" class="w-full aspect-[3/2] object-cover" />
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-steel-900">Agricultural Machinery</h3>
+            <p class="mt-2 text-sm text-slate-600">Medium and large-scale farm machinery: tractors, threshers, milling machines, water pumps and more.</p>
+            <a href="#quote" class="mt-4 inline-flex items-center gap-1 text-sm font-bold text-brand-600 group-hover:gap-2 transition-all">Enquire <span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </article>
+
+        <article class="group rounded-xl border border-slate-200 overflow-hidden hover:shadow-xl transition">
+          <img src="https://placehold.co/600x400/0f172a/f97316?text=Lubricant+Oil" alt="Lubricant oil" class="w-full aspect-[3/2] object-cover" />
+          <div class="p-6">
+            <h3 class="text-lg font-bold text-steel-900">Lubricant Oil</h3>
+            <p class="mt-2 text-sm text-slate-600">Engine oils, hydraulic fluids, gear oils and greases, sold by the litre, drum or pallet.</p>
+            <a href="#quote" class="mt-4 inline-flex items-center gap-1 text-sm font-bold text-brand-600 group-hover:gap-2 transition-all">Enquire <span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </article>
+      </div>
+
+      <!-- And more -->
+      <div class="mt-6 rounded-xl bg-slate-100 p-6 sm:p-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+        <div>
+          <h3 class="text-lg font-bold text-steel-900">And much more…</h3>
+          <p class="mt-1 text-sm text-slate-600">Measuring instruments, bearings, belts, filters, pumps, spare parts and accessories. Can't see what you need? Ask us.</p>
+        </div>
+        <a href="#quote" class="shrink-0 rounded-md bg-steel-900 px-5 py-3 text-center text-sm font-bold text-white hover:bg-steel-800">Ask About a Product</a>
+      </div>
+    </section>
+
+    <!-- Retail vs Wholesale -->
+    <section id="wholesale" class="bg-slate-50 py-16 sm:py-24">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="max-w-2xl">
+          <p class="text-sm font-bold uppercase tracking-wider text-brand-600">How to buy</p>
+          <h2 class="mt-2 text-3xl sm:text-4xl font-extrabold text-steel-900">Retail or Wholesale</h2>
+        </div>
+        <div class="mt-10 grid gap-6 lg:grid-cols-2">
+          <div class="rounded-xl bg-white border border-slate-200 p-8">
+            <h3 class="text-xl font-bold text-steel-900">Retail</h3>
+            <p class="mt-2 text-slate-600">For engineers, technicians, mechanics, farmers and workshops buying the tools and machines they need today.</p>
+            <ul class="mt-6 space-y-3 text-sm">
+              <li class="flex gap-3"><span class="text-brand-500 font-bold">✓</span> Buy single tools and units</li>
+              <li class="flex gap-3"><span class="text-brand-500 font-bold">✓</span> Technical product guidance</li>
+              <li class="flex gap-3"><span class="text-brand-500 font-bold">✓</span> Expert advice in store</li>
+              <li class="flex gap-3"><span class="text-brand-500 font-bold">✓</span> Pickup or local delivery</li>
+            </ul>
+          </div>
+          <div class="rounded-xl bg-steel-900 text-white p-8">
+            <h3 class="text-xl font-bold">Wholesale</h3>
+            <p class="mt-2 text-slate-300">For hardware dealers, contractors, engineering firms, estates and resellers ordering in volume.</p>
+            <ul class="mt-6 space-y-3 text-sm">
+              <li class="flex gap-3"><span class="text-brand-400 font-bold">✓</span> Tiered bulk pricing</li>
+              <li class="flex gap-3"><span class="text-brand-400 font-bold">✓</span> Trade credit for approved accounts</li>
+              <li class="flex gap-3"><span class="text-brand-400 font-bold">✓</span> Dedicated account manager</li>
+              <li class="flex gap-3"><span class="text-brand-400 font-bold">✓</span> Scheduled bulk deliveries</li>
+            </ul>
+            <a href="#quote" class="mt-8 inline-block rounded-md bg-brand-500 px-5 py-3 text-sm font-bold hover:bg-brand-600">Open a Wholesale Account</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About / Why us -->
+    <section id="about" class="max-w-7xl mx-auto px-4 py-16 sm:py-24 grid gap-12 lg:grid-cols-2 lg:items-center">
+      <img src="https://placehold.co/800x600/e2e8f0/475569?text=Our+Warehouse+%26+Showroom" alt="CONL warehouse and showroom" class="w-full rounded-xl" />
+      <div>
+        <p class="text-sm font-bold uppercase tracking-wider text-brand-600">About CONL</p>
+        <h2 class="mt-2 text-3xl sm:text-4xl font-extrabold text-steel-900">Your engineering supply partner</h2>
+        <p class="mt-4 text-slate-600">CONL is a wholesale and retail supplier of engineering tools and machinery. We serve individual engineers and workshops as well as dealers and contractors buying in bulk, and we help every customer choose the right tool or machine for the job.</p>
+        <div class="mt-8 grid gap-6 sm:grid-cols-2">
+          <div>
+            <h3 class="font-bold text-steel-900">Quality Assured</h3>
+            <p class="mt-1 text-sm text-slate-600">Every product comes from trusted manufacturers.</p>
+          </div>
+          <div>
+            <h3 class="font-bold text-steel-900">Trade &amp; Retail Pricing</h3>
+            <p class="mt-1 text-sm text-slate-600">Fair retail prices, with better rates for trade and volume buyers.</p>
+          </div>
+          <div>
+            <h3 class="font-bold text-steel-900">Technical Expertise</h3>
+            <p class="mt-1 text-sm text-slate-600">We'll help you size the right motor, engine, tool or machine.</p>
+          </div>
+          <div>
+            <h3 class="font-bold text-steel-900">After-Sales Support</h3>
+            <p class="mt-1 text-sm text-slate-600">Spare parts and service help after you buy.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quote form -->
+    <section id="quote" class="bg-steel-900 text-white py-16 sm:py-24">
+      <div class="max-w-3xl mx-auto px-4">
+        <div class="text-center">
+          <h2 class="text-3xl sm:text-4xl font-extrabold">Request a Quote</h2>
+          <p class="mt-4 text-slate-300">Tell us what you need and we'll get back to you with pricing and availability.</p>
+        </div>
+        <form id="quoteForm" class="mt-10 grid gap-4 sm:grid-cols-2">
+          <label class="block">
+            <span class="text-sm font-semibold">Full name</span>
+            <input required name="name" type="text" class="mt-1 w-full rounded-md border-0 bg-white/10 px-4 py-3 text-white placeholder-slate-400 focus:ring-2 focus:ring-brand-500" placeholder="Your name" />
+          </label>
+          <label class="block">
+            <span class="text-sm font-semibold">Phone</span>
+            <input required name="phone" type="tel" class="mt-1 w-full rounded-md border-0 bg-white/10 px-4 py-3 text-white placeholder-slate-400 focus:ring-2 focus:ring-brand-500" placeholder="Phone number" />
+          </label>
+          <label class="block">
+            <span class="text-sm font-semibold">Email</span>
+            <input name="email" type="email" class="mt-1 w-full rounded-md border-0 bg-white/10 px-4 py-3 text-white placeholder-slate-400 focus:ring-2 focus:ring-brand-500" placeholder="you@example.com" />
+          </label>
+          <label class="block">
+            <span class="text-sm font-semibold">Order type</span>
+            <select name="type" class="mt-1 w-full rounded-md border-0 bg-white/10 px-4 py-3 text-white focus:ring-2 focus:ring-brand-500">
+              <option class="text-slate-900">Retail</option>
+              <option class="text-slate-900">Wholesale</option>
+            </select>
+          </label>
+          <label class="block sm:col-span-2">
+            <span class="text-sm font-semibold">Product category</span>
+            <select name="category" class="mt-1 w-full rounded-md border-0 bg-white/10 px-4 py-3 text-white focus:ring-2 focus:ring-brand-500">
+              <option class="text-slate-900">Engineering &amp; Hand Tools</option>
+              <option class="text-slate-900">Power Tools &amp; Workshop Equipment</option>
+              <option class="text-slate-900">Electric Motors</option>
+              <option class="text-slate-900">Diesel Generator Engines</option>
+              <option class="text-slate-900">Petrol Generator Engines</option>
+              <option class="text-slate-900">Agricultural Machinery</option>
+              <option class="text-slate-900">Lubricant Oil</option>
+              <option class="text-slate-900">Other</option>
+            </select>
+          </label>
+          <label class="block sm:col-span-2">
+            <span class="text-sm font-semibold">Details</span>
+            <textarea required name="message" rows="4" class="mt-1 w-full rounded-md border-0 bg-white/10 px-4 py-3 text-white placeholder-slate-400 focus:ring-2 focus:ring-brand-500" placeholder="Model, specs, quantity…"></textarea>
+          </label>
+          <button type="submit" class="sm:col-span-2 rounded-md bg-brand-500 px-6 py-4 font-bold hover:bg-brand-600">Send Request</button>
+          <p id="formMsg" class="hidden sm:col-span-2 rounded-md bg-green-500/20 p-4 text-center text-green-300" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="max-w-7xl mx-auto px-4 py-16 sm:py-24">
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-steel-900">Visit or Contact Us</h2>
+      <div class="mt-10 grid gap-6 sm:grid-cols-3">
+        <div class="rounded-xl border border-slate-200 p-6">
+          <h3 class="font-bold text-steel-900">Address</h3>
+          <p class="mt-2 text-sm text-slate-600">[Street address]<br />[City, State]</p>
+        </div>
+        <div class="rounded-xl border border-slate-200 p-6">
+          <h3 class="font-bold text-steel-900">Phone</h3>
+          <p class="mt-2 text-sm text-slate-600">[Phone number]</p>
+        </div>
+        <div class="rounded-xl border border-slate-200 p-6">
+          <h3 class="font-bold text-steel-900">Email</h3>
+          <p class="mt-2 text-sm text-slate-600">[Email address]</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-steel-950 text-slate-400">
+    <div class="max-w-7xl mx-auto px-4 py-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+      <div class="lg:col-span-2">
+        <span class="text-xl font-extrabold text-white">CONL<span class="text-brand-500">.</span></span>
+        <p class="mt-3 text-sm max-w-sm">Wholesale and retail supplier of engineering tools and machinery.</p>
+      </div>
+      <div>
+        <h4 class="font-bold text-white">Products</h4>
+        <ul class="mt-3 space-y-2 text-sm">
+          <li><a href="#products" class="hover:text-white">Engineering Tools</a></li>
+          <li><a href="#products" class="hover:text-white">Power Tools</a></li>
+          <li><a href="#products" class="hover:text-white">Electric Motors</a></li>
+          <li><a href="#products" class="hover:text-white">Generator Engines</a></li>
+          <li><a href="#products" class="hover:text-white">Agricultural Machinery</a></li>
+          <li><a href="#products" class="hover:text-white">Lubricants</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-bold text-white">Company</h4>
+        <ul class="mt-3 space-y-2 text-sm">
+          <li><a href="#about" class="hover:text-white">About</a></li>
+          <li><a href="#wholesale" class="hover:text-white">Wholesale</a></li>
+          <li><a href="#quote" class="hover:text-white">Get a Quote</a></li>
+          <li><a href="#contact" class="hover:text-white">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-white/10">
+      <p class="max-w-7xl mx-auto px-4 py-6 text-xs">&copy; <span id="year"></span> CONL. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuBtn.addEventListener('click', () => {
+      const open = mobileMenu.classList.toggle('hidden') === false;
+      menuBtn.setAttribute('aria-expanded', open);
+    });
+    mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+      mobileMenu.classList.add('hidden');
+      menuBtn.setAttribute('aria-expanded', 'false');
+    }));
+
+    // No backend yet: confirm on screen only.
+    document.getElementById('quoteForm').addEventListener('submit', e => {
+      e.preventDefault();
+      const msg = document.getElementById('formMsg');
+      msg.textContent = `Thanks, ${e.target.elements.name.value}! We'll be in touch shortly.`;
+      msg.classList.remove('hidden');
+      e.target.reset();
+    });
+
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
